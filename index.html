@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Automation | Maphake Automation</title>
+<meta name="description" content="AI chatbots and business automation for South African businesses. 24/7 AI assistants trained on your business, deployed on your website and WhatsApp.">
+<meta name="keywords" content="website design South Africa, AI automation Johannesburg, WhatsApp automation, AI chatbot South Africa, booking system, CRM automation, web development Johannesburg">
+<meta property="og:title" content="AI Automation | Maphake Automation">
+<meta property="og:description" content="AI chatbots and business automation for South African businesses. 24/7 AI assistants trained on your business, deployed on your website and WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.maphakeautomation.co.za">
+<link rel="canonical" href="https://www.maphakeautomation.co.za">
+<link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<canvas id="bg-canvas"></canvas>
+<div id="bg-glow"></div>
+
+<!-- PAGE LOADER (robot running in place) -->
+<div id="loader">
+  <div id="loader-stage">
+    <span class="speed-line" style="top:30%;width:50px;animation-delay:0s"></span>
+    <span class="speed-line" style="top:45%;width:80px;animation-delay:.15s"></span>
+    <span class="speed-line" style="top:60%;width:60px;animation-delay:.3s"></span>
+    <span class="speed-line" style="top:72%;width:90px;animation-delay:.1s"></span>
+    <span class="speed-line" style="top:38%;width:40px;animation-delay:.22s"></span>
+    <img id="loader-robot" src="images/robot.png" alt="Maphake Automation">
+  </div>
+  <div id="loader-text">MAPHAKE AUTOMATION</div>
+  <div id="loader-sub">Loading…</div>
+  <div id="loader-track"></div>
+</div>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <a href="index.html" class="nav-logo">
+    <img src="images/logo.jpeg" alt="Maphake Automation logo">
+    <span class="nav-logo-text">MAPHAKE<span> AUTOMATION</span></span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="packages.html">Packages</a></li>
+    <li><a href="ai-automation.html" class="active">AI Automation</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<section class="page-hero">
+  <div class="eyebrow reveal">AI Automation</div>
+  <h1 class="reveal stagger-1">YOUR BUSINESS,<br>WORKING <span class="gold">24/7</span></h1>
+  <p class="reveal stagger-2">AI assistants that handle enquiries, book appointments, and close leads while you sleep. Try ours right now &mdash; tap the gold AI button in the corner.</p>
+</section>
+
+<section class="ai-section">
+  <div class="ai-bg-text">AI</div>
+  <div class="ai-grid">
+    <div class="ai-features">
+      <div class="ai-feat reveal stagger-1"><div class="ai-feat-icon">24/7</div><div><h4>Always On</h4><p>Your AI assistant answers enquiries, handles FAQs, and captures leads around the clock &mdash; even on public holidays and after hours.</p></div></div>
+      <div class="ai-feat reveal stagger-2"><div class="ai-feat-icon">AI</div><div><h4>Trained On Your Business</h4><p>We configure the assistant with your services, pricing, FAQs, and brand voice &mdash; so it speaks for you, accurately and on-brand.</p></div></div>
+      <div class="ai-feat reveal stagger-3"><div class="ai-feat-icon">WA</div><div><h4>WhatsApp + Website</h4><p>Deploy your AI on your website, your WhatsApp Business line, or both &mdash; wherever your clients prefer to reach you.</p></div></div>
+      <div class="ai-feat reveal stagger-4"><div class="ai-feat-icon">&rarr;</div><div><h4>Seamless Handoff</h4><p>When a conversation needs a human, the bot alerts you and hands over &mdash; no customer is ever left waiting.</p></div></div>
+    </div>
+    <div class="ai-demo-box reveal-right">
+      <h3>SEE IT IN ACTION</h3>
+      <div class="chat-bubble bot"><div class="sender">Maphake AI</div>Hi! Welcome to Glow Veil Skincare. I can help with product info, orders, or booking a skin consultation. What can I assist you with?</div>
+      <div class="chat-bubble user"><div class="sender">Customer</div>Do you have anything for dark spots?</div>
+      <div class="chat-bubble bot"><div class="sender">Maphake AI</div>Yes! Our Radiance Serum is formulated for hyperpigmentation and dark spots &mdash; 30ml at R380. Would you like to add it to your cart, or book a free skin consultation first?</div>
+      <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)"><p style="font-size:12px;color:var(--text-muted);margin-bottom:12px">A live example of a Maphake AI assistant deployed for a client.</p><a href="contact.html" class="btn-primary" style="font-size:13px;padding:10px 20px;display:inline-block">Get One For Your Business</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="services">
+  <div class="section-eyebrow reveal">Use Cases</div>
+  <h2 class="section-title reveal stagger-1">WHAT AI CAN<br>DO FOR YOU</h2>
+  <div class="services-grid">
+    <div class="service-card reveal stagger-1"><div class="service-icon">SALONS</div><h3>Salons &amp; Studios</h3><p>Answer "are you open?", quote prices, and book appointments automatically &mdash; even while you're with a client.</p></div>
+    <div class="service-card reveal stagger-2"><div class="service-icon">RETAIL</div><h3>Retail &amp; E-Commerce</h3><p>Recommend products, answer stock questions, and guide customers to checkout 24/7.</p></div>
+    <div class="service-card reveal stagger-3"><div class="service-icon">SERVICES</div><h3>Service Businesses</h3><p>Qualify leads, collect job details, and schedule callbacks before you've even picked up the phone.</p></div>
+    <div class="service-card reveal stagger-4"><div class="service-icon">FOOD</div><h3>Restaurants &amp; Caf&eacute;s</h3><p>Share menus, take reservations, and answer dietary questions instantly on your site or WhatsApp.</p></div>
+  </div>
+</section>
+
+<div class="cta-banner">
+  <h2>WANT AN AI<br>LIKE THIS?</h2>
+  <p>We'll build and train an AI assistant on your business. Live in days, not months.</p>
+  <a href="contact.html" class="btn-dark">Get Your AI Assistant</a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo-line">
+        <img src="images/logo.jpeg" alt="Maphake Automation logo">
+        <span class="logo">MAPHAKE<span> AUTOMATION</span></span>
+      </div>
+      <p>We deliver exceptional AI automation so any business can grow without limits. Based in Johannesburg, serving South Africa.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/maphakeautomation" target="_blank" rel="noopener" title="Instagram">IG</a>
+        <a href="https://www.tiktok.com/@maphakeautomation" target="_blank" rel="noopener" title="TikTok">TK</a>
+        <a href="https://www.linkedin.com/company/maphakeautomation" target="_blank" rel="noopener" title="LinkedIn">LI</a>
+        <a href="https://www.facebook.com/maphakeautomation" target="_blank" rel="noopener" title="Facebook">FB</a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>Services</h4><ul>
+      <li><a href="services.html">Website Design</a></li>
+      <li><a href="ai-automation.html">AI Chatbots</a></li>
+      <li><a href="services.html">WhatsApp Automation</a></li>
+      <li><a href="services.html">Booking Systems</a></li>
+      <li><a href="services.html">E-Commerce</a></li>
+      <li><a href="services.html">CRM Automation</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Company</h4><ul>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="portfolio.html">Our Work</a></li>
+      <li><a href="packages.html">Pricing</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Legal</h4><ul>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+    </ul>
+    <div style="margin-top:24px"><h4>Contact</h4><ul>
+      <li><a href="mailto:info@maphakeautomation.co.za">info@maphakeautomation.co.za</a></li>
+      <li><a href="https://wa.me/27664512823">066 451 2823</a></li>
+    </ul></div></div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Maphake Automation. All rights reserved.</p>
+    <a href="https://wa.me/27664512823" target="_blank" rel="noopener">Built by Maphake Automation &#9670;</a>
+  </div>
+</footer>
+
+<!-- AI CHAT WIDGET -->
+<div id="ai-widget">
+  <div id="ai-prompt-bubble">
+    <button id="ai-prompt-close" onclick="closePromptBubble(event)" aria-label="Close">&times;</button>
+    Have any queries? Our helpful <strong>AI assistant</strong> is here to help you &#9670;
+  </div>
+  <div id="ai-box">
+    <div id="ai-header">
+      <div class="ai-header-left">
+        <div class="ai-header-badge">AI</div>
+        <div><div class="ai-name">MAPHAKE AI</div><div class="ai-sub">Powered by Maphake Automation</div></div>
+      </div>
+      <button class="ai-close" onclick="toggleAI()" aria-label="Close chat">&times;</button>
+    </div>
+    <div id="ai-messages">
+      <div class="ai-msg bot">Hi! I'm the Maphake AI assistant. Have any queries? I'm here to help &mdash; ask me about our services, packages, or how we can help your business grow.</div>
+    </div>
+    <div id="ai-suggestions"></div>
+    <div id="ai-input-area">
+      <input type="text" id="ai-input" placeholder="Ask a question..." maxlength="500" onkeydown="aiInputKey(event)" autocomplete="off">
+      <button id="ai-send" onclick="sendAI()" aria-label="Send message">&rsaquo;</button>
+    </div>
+    <div id="ai-footer-label">Powered by Maphake Automation</div>
+  </div>
+  <button id="ai-toggle" onclick="toggleAI()" aria-label="Open AI assistant">AI</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

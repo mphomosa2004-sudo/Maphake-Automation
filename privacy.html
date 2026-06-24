@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Packages & Pricing | Maphake Automation</title>
+<meta name="description" content="Transparent website and AI automation pricing for South African businesses. Starter from R2,999, Business from R5,999, Smart + AI from R8,999. No hidden fees.">
+<meta name="keywords" content="website design South Africa, AI automation Johannesburg, WhatsApp automation, AI chatbot South Africa, booking system, CRM automation, web development Johannesburg">
+<meta property="og:title" content="Packages & Pricing | Maphake Automation">
+<meta property="og:description" content="Transparent website and AI automation pricing for South African businesses. Starter from R2,999, Business from R5,999, Smart + AI from R8,999. No hidden fees.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.maphakeautomation.co.za">
+<link rel="canonical" href="https://www.maphakeautomation.co.za">
+<link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<canvas id="bg-canvas"></canvas>
+<div id="bg-glow"></div>
+
+<!-- PAGE LOADER (robot running in place) -->
+<div id="loader">
+  <div id="loader-stage">
+    <span class="speed-line" style="top:30%;width:50px;animation-delay:0s"></span>
+    <span class="speed-line" style="top:45%;width:80px;animation-delay:.15s"></span>
+    <span class="speed-line" style="top:60%;width:60px;animation-delay:.3s"></span>
+    <span class="speed-line" style="top:72%;width:90px;animation-delay:.1s"></span>
+    <span class="speed-line" style="top:38%;width:40px;animation-delay:.22s"></span>
+    <img id="loader-robot" src="images/robot.png" alt="Maphake Automation">
+  </div>
+  <div id="loader-text">MAPHAKE AUTOMATION</div>
+  <div id="loader-sub">Loading…</div>
+  <div id="loader-track"></div>
+</div>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <a href="index.html" class="nav-logo">
+    <img src="images/logo.jpeg" alt="Maphake Automation logo">
+    <span class="nav-logo-text">MAPHAKE<span> AUTOMATION</span></span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="packages.html" class="active">Packages</a></li>
+    <li><a href="ai-automation.html">AI Automation</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<section class="page-hero">
+  <div class="eyebrow reveal">Pricing</div>
+  <h1 class="reveal stagger-1">STRAIGHTFORWARD <span class="gold">PACKAGES</span></h1>
+  <p class="reveal stagger-2">All prices in ZAR. Transparent, honest, and with no hidden fees. Domain and hosting are separate &mdash; roughly R450/yr for a .co.za or R600/yr for a .com.</p>
+</section>
+
+<section class="packages">
+  <div class="packages-grid">
+    <div class="pkg-card reveal stagger-1">
+      <div class="pkg-name">Starter</div>
+      <div class="pkg-price">R2,999<span>+</span></div>
+      <div class="pkg-note">Starting from &mdash; final quote after consultation</div>
+      <div class="pkg-divider"></div>
+      <ul class="pkg-features">
+        <li>Up to 3 pages (Home, About, Contact)</li>
+        <li>Mobile-responsive design</li>
+        <li>Basic SEO setup</li>
+        <li>Contact form with WhatsApp link</li>
+        <li>Google Maps integration</li>
+        <li>5&ndash;7 day delivery</li>
+        <li>1 revision round</li>
+      </ul>
+      <a href="contact.html" class="btn-outline">Get a Quote</a>
+    </div>
+    <div class="pkg-card featured reveal stagger-2">
+      <div class="pkg-badge">Most Popular</div>
+      <div class="pkg-name">Business</div>
+      <div class="pkg-price">R5,999<span>+</span></div>
+      <div class="pkg-note">Starting from &mdash; final quote after consultation</div>
+      <div class="pkg-divider"></div>
+      <ul class="pkg-features">
+        <li>Up to 6 custom pages</li>
+        <li>Premium design with animations</li>
+        <li>Full SEO optimisation</li>
+        <li>WhatsApp CTA integration</li>
+        <li>Google Analytics setup</li>
+        <li>Portfolio / Gallery section</li>
+        <li>10&ndash;14 day delivery</li>
+        <li>2 revision rounds</li>
+      </ul>
+      <a href="contact.html" class="btn-primary">Get a Quote</a>
+    </div>
+    <div class="pkg-card reveal stagger-3">
+      <div class="pkg-name">Smart + AI</div>
+      <div class="pkg-price">R8,999<span>+</span></div>
+      <div class="pkg-note">Starting from &mdash; final quote after consultation</div>
+      <div class="pkg-divider"></div>
+      <ul class="pkg-features">
+        <li>Everything in Business</li>
+        <li>AI-powered chatbot integration</li>
+        <li>WhatsApp automation setup</li>
+        <li>Booking or lead capture system</li>
+        <li>CRM connection (basic)</li>
+        <li>Priority support</li>
+        <li>14&ndash;21 day delivery</li>
+        <li>3 revision rounds</li>
+      </ul>
+      <a href="contact.html" class="btn-outline">Get a Quote</a>
+    </div>
+  </div>
+  <div class="payment-note reveal stagger-4">
+    <strong>Payment Terms:</strong> A 50% deposit is required before work begins. The remaining 50% is due upon completion, before your site goes live. All payments are via EFT bank transfer and a full invoice is provided. Nothing starts without your written approval of the quote.
+  </div>
+</section>
+
+<section class="addons">
+  <div class="section-eyebrow reveal">Add-Ons</div>
+  <h2 class="section-title reveal stagger-1">ENHANCE YOUR<br>PACKAGE</h2>
+  <p class="section-subtitle reveal stagger-2">Add exactly what you need. Every add-on can be included with any package.</p>
+  <div class="addons-grid">
+    <div class="addon-item reveal stagger-1"><div class="addon-price">R999</div><h4>Booking System</h4><p>Online booking calendar with appointment management and client notifications.</p></div>
+    <div class="addon-item reveal stagger-2"><div class="addon-price">R500</div><h4>Extra Page</h4><p>Add additional custom pages beyond your package's included count.</p></div>
+    <div class="addon-item reveal stagger-3"><div class="addon-price">R350/mo</div><h4>Maintenance</h4><p>Monthly updates, content changes, security checks, and performance monitoring.</p></div>
+    <div class="addon-item reveal stagger-4"><div class="addon-price">R1,500</div><h4>AI Chatbot</h4><p>Intelligent AI assistant trained on your business, live on your website 24/7.</p></div>
+    <div class="addon-item reveal stagger-5"><div class="addon-price">R500</div><h4>WhatsApp Automation</h4><p>Automated reply flows, lead capture, and FAQ handling on WhatsApp Business.</p></div>
+    <div class="addon-item reveal stagger-6"><div class="addon-price">R500</div><h4>Business Email</h4><p>Professional email e.g. you@yourbusiness.co.za set up via your own domain.</p></div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="section-eyebrow reveal">Common Questions</div>
+  <h2 class="section-title reveal stagger-1">PRICING <span class="gold">FAQ</span></h2>
+  <div class="faq-list reveal stagger-2">
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Do you include domain and hosting in the price?<span class="arrow">+</span></button><div class="faq-a">No &mdash; domain and hosting are separate and billed directly to you. We recommend domains.co.za: roughly R450/yr for a .co.za domain and R600/yr for a .com. We guide you through the full setup.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What are your payment terms?<span class="arrow">+</span></button><div class="faq-a">A 50% deposit is required before work begins. The remaining 50% is due upon completion, before your site goes live. All payments are via EFT and a full invoice is provided.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Why does it say "starting from"?<span class="arrow">+</span></button><div class="faq-a">Every project is different. The listed price is the starting point; your final quote depends on the number of pages, features, and add-ons you need. We give you a fixed quote before any work begins.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How long does a website take?<span class="arrow">+</span></button><div class="faq-a">Starter: 5&ndash;7 business days. Business: 10&ndash;14 days. Smart + AI: 14&ndash;21 days. Timelines begin once we have your content. We always give a firm deadline upfront.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Can I upgrade later?<span class="arrow">+</span></button><div class="faq-a">Absolutely. You can start with a Starter site and add features, pages, AI, or automation whenever you're ready. We build so your site can grow with your business.</div></div>
+  </div>
+</section>
+
+<div class="cta-banner">
+  <h2>READY TO<br>GET STARTED?</h2>
+  <p>Pick a package or let us recommend one. We'll send a quote within 24 hours.</p>
+  <a href="contact.html" class="btn-dark">Request a Quote</a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo-line">
+        <img src="images/logo.jpeg" alt="Maphake Automation logo">
+        <span class="logo">MAPHAKE<span> AUTOMATION</span></span>
+      </div>
+      <p>We deliver exceptional AI automation so any business can grow without limits. Based in Johannesburg, serving South Africa.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/maphakeautomation" target="_blank" rel="noopener" title="Instagram">IG</a>
+        <a href="https://www.tiktok.com/@maphakeautomation" target="_blank" rel="noopener" title="TikTok">TK</a>
+        <a href="https://www.linkedin.com/company/maphakeautomation" target="_blank" rel="noopener" title="LinkedIn">LI</a>
+        <a href="https://www.facebook.com/maphakeautomation" target="_blank" rel="noopener" title="Facebook">FB</a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>Services</h4><ul>
+      <li><a href="services.html">Website Design</a></li>
+      <li><a href="ai-automation.html">AI Chatbots</a></li>
+      <li><a href="services.html">WhatsApp Automation</a></li>
+      <li><a href="services.html">Booking Systems</a></li>
+      <li><a href="services.html">E-Commerce</a></li>
+      <li><a href="services.html">CRM Automation</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Company</h4><ul>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="portfolio.html">Our Work</a></li>
+      <li><a href="packages.html">Pricing</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Legal</h4><ul>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+    </ul>
+    <div style="margin-top:24px"><h4>Contact</h4><ul>
+      <li><a href="mailto:info@maphakeautomation.co.za">info@maphakeautomation.co.za</a></li>
+      <li><a href="https://wa.me/27664512823">066 451 2823</a></li>
+    </ul></div></div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Maphake Automation. All rights reserved.</p>
+    <a href="https://wa.me/27664512823" target="_blank" rel="noopener">Built by Maphake Automation &#9670;</a>
+  </div>
+</footer>
+
+<!-- AI CHAT WIDGET -->
+<div id="ai-widget">
+  <div id="ai-prompt-bubble">
+    <button id="ai-prompt-close" onclick="closePromptBubble(event)" aria-label="Close">&times;</button>
+    Have any queries? Our helpful <strong>AI assistant</strong> is here to help you &#9670;
+  </div>
+  <div id="ai-box">
+    <div id="ai-header">
+      <div class="ai-header-left">
+        <div class="ai-header-badge">AI</div>
+        <div><div class="ai-name">MAPHAKE AI</div><div class="ai-sub">Powered by Maphake Automation</div></div>
+      </div>
+      <button class="ai-close" onclick="toggleAI()" aria-label="Close chat">&times;</button>
+    </div>
+    <div id="ai-messages">
+      <div class="ai-msg bot">Hi! I'm the Maphake AI assistant. Have any queries? I'm here to help &mdash; ask me about our services, packages, or how we can help your business grow.</div>
+    </div>
+    <div id="ai-suggestions"></div>
+    <div id="ai-input-area">
+      <input type="text" id="ai-input" placeholder="Ask a question..." maxlength="500" onkeydown="aiInputKey(event)" autocomplete="off">
+      <button id="ai-send" onclick="sendAI()" aria-label="Send message">&rsaquo;</button>
+    </div>
+    <div id="ai-footer-label">Powered by Maphake Automation</div>
+  </div>
+  <button id="ai-toggle" onclick="toggleAI()" aria-label="Open AI assistant">AI</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

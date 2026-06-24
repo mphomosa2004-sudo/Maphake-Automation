@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Maphake Automation</title>
+<meta name="description" content="Maphake Automation is a Johannesburg-based digital agency delivering world-class websites and AI automation to South African businesses of every size.">
+<meta name="keywords" content="website design South Africa, AI automation Johannesburg, WhatsApp automation, AI chatbot South Africa, booking system, CRM automation, web development Johannesburg">
+<meta property="og:title" content="About | Maphake Automation">
+<meta property="og:description" content="Maphake Automation is a Johannesburg-based digital agency delivering world-class websites and AI automation to South African businesses of every size.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.maphakeautomation.co.za">
+<link rel="canonical" href="https://www.maphakeautomation.co.za">
+<link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<canvas id="bg-canvas"></canvas>
+<div id="bg-glow"></div>
+
+<!-- PAGE LOADER (robot running in place) -->
+<div id="loader">
+  <div id="loader-stage">
+    <span class="speed-line" style="top:30%;width:50px;animation-delay:0s"></span>
+    <span class="speed-line" style="top:45%;width:80px;animation-delay:.15s"></span>
+    <span class="speed-line" style="top:60%;width:60px;animation-delay:.3s"></span>
+    <span class="speed-line" style="top:72%;width:90px;animation-delay:.1s"></span>
+    <span class="speed-line" style="top:38%;width:40px;animation-delay:.22s"></span>
+    <img id="loader-robot" src="images/robot.png" alt="Maphake Automation">
+  </div>
+  <div id="loader-text">MAPHAKE AUTOMATION</div>
+  <div id="loader-sub">Loading…</div>
+  <div id="loader-track"></div>
+</div>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <a href="index.html" class="nav-logo">
+    <img src="images/logo.jpeg" alt="Maphake Automation logo">
+    <span class="nav-logo-text">MAPHAKE<span> AUTOMATION</span></span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="packages.html">Packages</a></li>
+    <li><a href="ai-automation.html">AI Automation</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<section class="page-hero">
+  <div class="eyebrow reveal">About Us</div>
+  <h1 class="reveal stagger-1">BUILT UNDER A<br><span class="gold">FAMILY NAME</span></h1>
+  <p class="reveal stagger-2">A Johannesburg digital agency on a mission to give every South African business access to world-class digital tools.</p>
+</section>
+
+<section class="about">
+  <div class="about-grid">
+    <div class="about-text reveal-left">
+      <p>Maphake Automation is a Johannesburg-based digital agency founded on one belief: every South African business deserves world-class digital tools &mdash; regardless of size or industry.</p>
+      <p>We carry the Maphake name with pride. It's a name tied to a legacy of entrepreneurship and a commitment to building things that last. Every website, every chatbot, and every automation we deliver reflects that standard.</p>
+      <p>We serve businesses across all industries &mdash; from home-based salons and independent contractors to established companies looking to modernise. No client is too small. No project is too ambitious.</p>
+      <a href="contact.html" class="btn-outline" style="margin-top:16px;display:inline-block">Work With Us</a>
+    </div>
+    <div class="about-values reveal-right">
+      <div class="value-row"><div class="value-num">01</div><div><h4>No Templates. Ever.</h4><p>Every project is built from scratch for your brand. You won't find your site on a theme store.</p></div></div>
+      <div class="value-row"><div class="value-num">02</div><div><h4>Fast Delivery</h4><p>Starter sites in 5&ndash;7 days. Complex projects in 14&ndash;21 days. We don't waste your time.</p></div></div>
+      <div class="value-row"><div class="value-num">03</div><div><h4>Transparent Pricing</h4><p>No hidden fees. No surprises. You know exactly what you're getting before we start.</p></div></div>
+      <div class="value-row"><div class="value-num">04</div><div><h4>Local by Default</h4><p>Based in Johannesburg. We understand South African businesses and what your clients expect.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee-section">
+  <div class="marquee-track"><div class="marquee-item"><span class="dot">&#9670;</span>Website Design</div><div class="marquee-item"><span class="dot">&#9670;</span>AI Chatbots</div><div class="marquee-item"><span class="dot">&#9670;</span>WhatsApp Automation</div><div class="marquee-item"><span class="dot">&#9670;</span>Booking Systems</div><div class="marquee-item"><span class="dot">&#9670;</span>CRM Automation</div><div class="marquee-item"><span class="dot">&#9670;</span>E-Commerce Stores</div><div class="marquee-item"><span class="dot">&#9670;</span>Landing Pages</div><div class="marquee-item"><span class="dot">&#9670;</span>Business Portfolios</div><div class="marquee-item"><span class="dot">&#9670;</span>Website Design</div><div class="marquee-item"><span class="dot">&#9670;</span>AI Chatbots</div><div class="marquee-item"><span class="dot">&#9670;</span>WhatsApp Automation</div><div class="marquee-item"><span class="dot">&#9670;</span>Booking Systems</div><div class="marquee-item"><span class="dot">&#9670;</span>CRM Automation</div><div class="marquee-item"><span class="dot">&#9670;</span>E-Commerce Stores</div><div class="marquee-item"><span class="dot">&#9670;</span>Landing Pages</div><div class="marquee-item"><span class="dot">&#9670;</span>Business Portfolios</div></div>
+</div>
+<section class="services">
+  <div class="section-eyebrow reveal">Why Maphake</div>
+  <h2 class="section-title reveal stagger-1">WHAT SETS<br>US APART</h2>
+  <div class="services-grid">
+    <div class="service-card reveal stagger-1"><div class="service-icon">CRAFT</div><h3>Custom Craftsmanship</h3><p>Hand-built websites tailored to your brand &mdash; not drag-and-drop templates dressed up to look custom.</p></div>
+    <div class="service-card reveal stagger-2"><div class="service-icon">AI</div><h3>AI-First Thinking</h3><p>We don't just build sites &mdash; we automate the work behind them so your business runs leaner and faster.</p></div>
+    <div class="service-card reveal stagger-3"><div class="service-icon">LOCAL</div><h3>South African Focus</h3><p>WhatsApp-first communication, local pricing in Rands, and an understanding of the SA market.</p></div>
+    <div class="service-card reveal stagger-4"><div class="service-icon">PARTNER</div><h3>Long-Term Partner</h3><p>We're here after launch with maintenance and support &mdash; your growth is the goal, not just the sale.</p></div>
+  </div>
+</section>
+
+<div class="cta-banner">
+  <h2>LET'S BUILD YOUR<br>DIGITAL PRESENCE.</h2>
+  <p>Whatever your business, we'll help it grow without limits.</p>
+  <a href="contact.html" class="btn-dark">Get in Touch</a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo-line">
+        <img src="images/logo.jpeg" alt="Maphake Automation logo">
+        <span class="logo">MAPHAKE<span> AUTOMATION</span></span>
+      </div>
+      <p>We deliver exceptional AI automation so any business can grow without limits. Based in Johannesburg, serving South Africa.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/maphakeautomation" target="_blank" rel="noopener" title="Instagram">IG</a>
+        <a href="https://www.tiktok.com/@maphakeautomation" target="_blank" rel="noopener" title="TikTok">TK</a>
+        <a href="https://www.linkedin.com/company/maphakeautomation" target="_blank" rel="noopener" title="LinkedIn">LI</a>
+        <a href="https://www.facebook.com/maphakeautomation" target="_blank" rel="noopener" title="Facebook">FB</a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>Services</h4><ul>
+      <li><a href="services.html">Website Design</a></li>
+      <li><a href="ai-automation.html">AI Chatbots</a></li>
+      <li><a href="services.html">WhatsApp Automation</a></li>
+      <li><a href="services.html">Booking Systems</a></li>
+      <li><a href="services.html">E-Commerce</a></li>
+      <li><a href="services.html">CRM Automation</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Company</h4><ul>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="portfolio.html">Our Work</a></li>
+      <li><a href="packages.html">Pricing</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Legal</h4><ul>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+    </ul>
+    <div style="margin-top:24px"><h4>Contact</h4><ul>
+      <li><a href="mailto:info@maphakeautomation.co.za">info@maphakeautomation.co.za</a></li>
+      <li><a href="https://wa.me/27664512823">066 451 2823</a></li>
+    </ul></div></div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Maphake Automation. All rights reserved.</p>
+    <a href="https://wa.me/27664512823" target="_blank" rel="noopener">Built by Maphake Automation &#9670;</a>
+  </div>
+</footer>
+
+<!-- AI CHAT WIDGET -->
+<div id="ai-widget">
+  <div id="ai-prompt-bubble">
+    <button id="ai-prompt-close" onclick="closePromptBubble(event)" aria-label="Close">&times;</button>
+    Have any queries? Our helpful <strong>AI assistant</strong> is here to help you &#9670;
+  </div>
+  <div id="ai-box">
+    <div id="ai-header">
+      <div class="ai-header-left">
+        <div class="ai-header-badge">AI</div>
+        <div><div class="ai-name">MAPHAKE AI</div><div class="ai-sub">Powered by Maphake Automation</div></div>
+      </div>
+      <button class="ai-close" onclick="toggleAI()" aria-label="Close chat">&times;</button>
+    </div>
+    <div id="ai-messages">
+      <div class="ai-msg bot">Hi! I'm the Maphake AI assistant. Have any queries? I'm here to help &mdash; ask me about our services, packages, or how we can help your business grow.</div>
+    </div>
+    <div id="ai-suggestions"></div>
+    <div id="ai-input-area">
+      <input type="text" id="ai-input" placeholder="Ask a question..." maxlength="500" onkeydown="aiInputKey(event)" autocomplete="off">
+      <button id="ai-send" onclick="sendAI()" aria-label="Send message">&rsaquo;</button>
+    </div>
+    <div id="ai-footer-label">Powered by Maphake Automation</div>
+  </div>
+  <button id="ai-toggle" onclick="toggleAI()" aria-label="Open AI assistant">AI</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
